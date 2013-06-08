@@ -1,11 +1,11 @@
 /* 
  * Author: Beau Bouchard 
- * Title/Filename: movement.js 
+ * Title/Filename: input.js 
  * Description: Core Mechanics of game
  */
  
 function handleInput(inc_mod) {
-  if ((38 in keyStroke )|| (87 in keyStroke)) {// up key stroke or 'w' key stroke
+	if ((38 in keyStroke )|| (87 in keyStroke)) {// up key stroke or 'w' key stroke
 		player.y -= player.speed * inc_mod;
 	}
 	if ((40 in keyStroke) || (83 in keyStroke)) { // down key stroke or 's' key stroke
