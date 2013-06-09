@@ -7,7 +7,7 @@ BaconGameJam: BaconGameJam 05  http://bacongamejam.org/jams/bacongamejam-05/
 
 http://bacongamejam.org/jams/bacongamejam-05/44/
 
-![Screenshot]http://i.imgur.com/CIcEMaL.png)
+![Screenshot](http://i.imgur.com/CIcEMaL.png)
 "Planting of tomato plants"
 
 
