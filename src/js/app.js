@@ -6,48 +6,28 @@
  
  var canvas = document.createElement("canvas");
  var context= canvas.getContext("2d");
- canvas.width = 512;
- canvas.height = 480;
- document.body.appendChild(canvas);
- 
- 
- //Resource Loader
+ canvas.width = 1024;
+ canvas.height = 768;
 
-
+ document.getElementById("game").appendChild(canvas);
+ 
  
   // Player object
  var player = {
-  speed: 256 //pixels per second
+	speed: 256 //pixels per second
+	
  };
  
- var keyStroke = {};
+ //tomato object
+ var plant = {
+	
+ };
  
-addEventListener("keydown", function (e) {
-		keyStroke[e.keyCode] = true;
-}, false);
 
-addEventListener("keyup", function (e) {
-		delete keyStroke[e.keyCode];
-}, false);
 
 var start = function () { 
 	player.x = canvas.width / 2;
 	player.y = canvas.height / 2;
-};
-
-
-
-		
- 
- var render = function () {
-	if (bkgrdReady) {
-		context.drawImage(bkgrdImage, 0, 0);
-		
-	}
-	if (littleheroReady) {
-		context.drawImage(littleheroImage, player.x, player.y);
-		
-	}
 };
 
 
